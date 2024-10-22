@@ -43,7 +43,7 @@ fun Screen3() {
 
 
     val context = LocalContext.current
-    Column ( modifier = Modifier.padding(horizontal = 20.dp).fillMaxSize().background(Brush.verticalGradient(colorStops = clrStops)),
+    Column ( modifier = Modifier.padding(horizontal = 10.dp).fillMaxSize().background(Brush.verticalGradient(colorStops = clrStops)),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,){
         Slider(value = sliderValue, onValueChange = { sliderValue=it }, Modifier.fillMaxWidth()
