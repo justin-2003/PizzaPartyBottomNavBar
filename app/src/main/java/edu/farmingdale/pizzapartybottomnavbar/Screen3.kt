@@ -33,9 +33,9 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun Screen3() {
     val clrStops = arrayOf(
-        0.0f to Color.Black,
+        0.0f to Color.White,
         0.05f to Color.LightGray,
-        1.0f to Color.White
+        1.0f to Color.Black
     )
 
     var sliderValue by remember { mutableStateOf(0.5f) }
