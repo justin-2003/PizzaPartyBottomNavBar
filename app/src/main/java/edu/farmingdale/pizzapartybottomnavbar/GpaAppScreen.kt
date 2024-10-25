@@ -84,6 +84,7 @@ fun GpaAppScreen() {
                     gpa = "Invalid input"
                 }
             } else {
+                // here all done it for us
                 // Reset all value to none
                 grade1 = ""
                 grade2 = ""
