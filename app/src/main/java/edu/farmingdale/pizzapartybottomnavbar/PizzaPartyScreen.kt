@@ -1,5 +1,5 @@
-/*package edu.farmingdale.pizzapartybottomnavbar
-
+package edu.farmingdale.pizzapartybottomnavbar
+/*
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -148,9 +148,9 @@ fun calculateNumPizzas(
 
     return ceil(numPeople * slicesPerPerson / slicesPerPizza.toDouble()).toInt()
 }
-*/
-package com.example.pizzapartybottomnavigationbar.newdesign
 
+package com.example.pizzapartybottomnavigationbar.newdesign
+*/
 import HungerLevel
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -172,7 +172,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 
 @Composable
-fun PizzaPartyScreen2(
+fun PizzaPartyScreen(
     modifier: Modifier = Modifier,
     partyViewModel: PizzaPartyViewModel = viewModel()
 ) {

@@ -1,10 +1,16 @@
 package edu.farmingdale.pizzapartybottomnavbar
 
+import androidx.compose.material3.NavigationDrawerItem
+
+import androidx.compose.material3.ModalNavigationDrawer
+import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import edu.farmingdale.pizzapartybottomnavbar.ui.SplashScreen
+
+
 
 @Composable
 fun NavigationGraph(navController: NavHostController, onBottomBarVisibilityChanged: (Boolean) -> Unit) {
@@ -28,6 +34,8 @@ fun NavigationGraph(navController: NavHostController, onBottomBarVisibilityChang
     }
 }
 
+
 // ToDo 8: This is the homework:
 // add a drawer navigation as described in drawable drawermenu.png
 // Improve the design and integration of the app for 5 extra credit points.
+

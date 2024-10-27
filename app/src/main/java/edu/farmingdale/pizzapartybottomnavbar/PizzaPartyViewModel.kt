@@ -1,4 +1,4 @@
-package com.example.pizzapartybottomnavigationbar.newdesign
+package edu.farmingdale.pizzapartybottomnavbar
 
 import PizzaCalculator
 import androidx.compose.runtime.getValue
