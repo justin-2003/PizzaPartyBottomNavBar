@@ -149,7 +149,6 @@ fun calculateNumPizzas(
     return ceil(numPeople * slicesPerPerson / slicesPerPizza.toDouble()).toInt()
 }
 
-package com.example.pizzapartybottomnavigationbar.newdesign
 */
 import HungerLevel
 import androidx.compose.foundation.layout.Column
